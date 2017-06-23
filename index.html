@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Best Beer Finder</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600" rel="stylesheet">
+	</head>
+	<body>
+	<div class="beer-background">
+		<div class="beer-container">
+		  <div class="beer-form">
+		    <h1>Where is Beer?</h1>
+				<p>Here is the Beer.</p>
+			<div class="beer-inputs">
+				<label>Find By Beer Name</label>
+				<input type="text" placeholder="Beer Name" data="beerName">
+			</div><!-- beer-inputs -->
+			<div class="beer-inputs">
+				<label>Find By Brewery</label>
+				<input type="text" placeholder="Brewery" data="brewery">
+			</div><!-- beer-inputs -->
+			<button id="beer-search-button">Search</button>
+		  </div><!-- beer-form -->
+		  <div class="beer-results">
+		  	<span class="beer-modal-close">X</span>
+	    </div><!-- beer-results -->
+  	</div><!-- beer-container -->    
+	</div><!-- beer-background -->
+	<script src="scripts/apikey.js"></script>
+	<script src="scripts/index.js"></script>
+	</body>
+</html>
